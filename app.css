@@ -1,0 +1,142 @@
+/* .navbar
+{
+	background: #0d2c5a;
+	height: 60px;
+}
+#main .nav-link:hover{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link 
+{
+	color:#5b9bbc;
+ }
+
+*/
+body
+{
+	font-weight:normal;
+	
+}
+#main {
+    background-color:#0d2c5a;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+	font-size: 20px;
+	color: #5b9bbc;
+	padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+	
+	color: white;
+	
+}
+
+#resume
+{
+	padding: 5px;
+	color: rgb(100, 255, 218);
+	border: 1px solid rgb(100, 255, 218);
+}
+hr {
+	width: 30%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+ .headhr
+{
+	background: #5b9bbc;
+	height: 3px;
+}
+i
+{
+	font-size: 30px;
+}
+
+.top
+{
+	margin: auto;
+	text-align: center;
+	overflow: auto;
+	height: 550px;
+	background-image: url("backstretch.jpg");
+	background-size: 100% 100%;
+
+}
+#name
+{
+	color: white;
+	font-size: 60px;
+	margin: auto;
+
+	padding-top: 100px;
+}
+#name1
+{
+	font-weight: normal;
+	 color: white;
+}
+
+#tech
+{
+	overflow: auto;
+	background-color: #eee;
+	margin-top: 100px;
+	padding: 50px;
+}
+
+#education
+{
+	overflow: auto;
+	margin-top: 50px;
+	padding: 50px;
+	text-align: center;
+}
+
+
+#portfolio
+{
+	overflow: auto;
+	margin-top: 50px;
+	padding: 50px;
+	background-color: #eee;
+	text-align: center;
+}
+
+
+#contact
+{
+	overflow: auto;
+	margin-top: 50px;
+	padding: 50px;
+	background-color: #0d2c5a;
+	text-align: center;
+}
+
+
+
+@media (max-width: 1000px) {
+   .top
+   	{
+   		height: 250px;
+   	}
+   	#name
+{
+	font-size: 25px;
+	
+	padding-top: 50px;
+}
+  	#name1
+{
+	font-size: 15px;
+	
+	
+}
+
+    }
+
